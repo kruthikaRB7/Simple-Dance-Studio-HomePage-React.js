@@ -52,9 +52,9 @@ const Imageslider = () => {
     }
 
     return (
-        <div>
-            <h1 className="w-full mt-24 bg-gray-900 text-gray-300 py-2 px-2 justify-center flex top-4 justify-center py-2 text-6xl font-bold">Gallery</h1>
-            <div className="max-w-[1000px] h-[580px] w-full m-auto py-16 px-25 relative group ">
+        <div className="m-auto">
+            <h1 className="w-full mt-24 bg-gray-900 text-gray-300 py-2 px-2 justify-center flex top-4 justify-center py-2 text-6xl font-bold m-auto">Gallery</h1>
+            <div className="max-w-[1000px] h-[580px] w-full m-auto py-16 px-25 relative group">
                 <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
                     style={{ backgroundImage: `url(${slides[currentIndex].url})` }}></div>
                 {/*Left Arrow*/}
